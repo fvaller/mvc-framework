@@ -1,4 +1,4 @@
-![alt text](https://raw.githubusercontent.com/fernandovaller/php-framework-mvc/master/php-mvc.jpg)
+![alt text](https://raw.githubusercontent.com/fvaller/mvc-framework/master/php-mvc.jpg)
 
 # php-framework-php
 Simples exemplo de um framework em PHP para fins de estudo
