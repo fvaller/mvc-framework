@@ -1,0 +1,23 @@
+<h3>Lista de Produtos</h3>
+<hr>
+<table class="table table-hover">
+    <thead>
+    <tr class="active">
+        <th>ID</th>
+        <th>TITLE</th>
+        <th>AUTHOR</th>
+        <th>COMPANY</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <?php foreach ($this->view->books as $book): ?>
+        <tr>
+            <td><?= $book['id'] ?></td>
+            <td><?= $book['title'] ?></td>
+            <td><?= $book['author'] ?></td>
+            <td><?= $book['company'] ?></td>
+        </tr>
+    <?php endforeach; ?>
+    </tbody>
+</table>

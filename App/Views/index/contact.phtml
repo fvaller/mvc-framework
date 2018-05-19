@@ -1,0 +1,21 @@
+<h3>Lista de Contatos</h3>
+<hr>
+<table class="table table-hover">
+    <thead>
+    <tr class="active">
+        <th>ID</th>
+        <th>NAME</th>
+        <th>EMAIL</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <?php foreach ($this->view->clients as $client): ?>
+        <tr>
+            <td><?= $client['id'] ?></td>
+            <td><?= $client['name'] ?></td>
+            <td><?= $client['email'] ?></td>
+        </tr>
+    <?php endforeach; ?>
+    </tbody>
+</table>

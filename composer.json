@@ -1,0 +1,20 @@
+{
+  "name": "son/mvc",
+  "require": {
+    "php": ">=5.6"
+  },
+  "authors": [
+    {
+      "name": "Fernando Valler",
+      "email": "fernandovaller@gmail.com"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "SON\\": "vendor//SON",
+      "App\\": "App//"
+    }
+  }
+
+}
